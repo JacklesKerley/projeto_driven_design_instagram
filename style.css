@@ -4,6 +4,72 @@
   box-sizing: border-box;
 }
 
-h1 {
-  color: blue;
+body {
+  font-family: "Roboto", sans-serif;
 }
+
+.header {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #DBDBDB;
+}
+
+.headerContainer {
+  display: flex;
+  width: 935px;
+  height: 54px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+
+.icone {
+  font-size: 22px;
+  padding-right: 10px;
+  border-right: 1px solid #DBDBDB;
+}
+
+.logo div:last-child {
+  padding: 5px 0 0 10px;
+}
+
+.pesquisa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.campoBusca {
+  background-color: #FAFAFA;
+  width: 215px;
+  height: 28px;
+  text-align: center;
+  border: 1px solid #DBDBDB;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 30%;
+}
+
+.nav .iconsNav {
+  font-size: 22px;
+  padding: 0 5px;
+}
+
+.nav .iconsNav:nth-child(4) {
+  padding-right: 0;
+}
+
+
+
+
