@@ -95,6 +95,7 @@ body {
 }
 
 .stories {
+  background-color: #ffffff;
   display: flex;
   width: 614px;
   height: 118px;
@@ -146,4 +147,94 @@ body {
   top: 43px;
   right: 6px;
   color: rgba(0, 0, 0,0.25);
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  width: 614px;
+  margin-top: 24px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+  border: 1px solid #DBDBDB;
+}
+
+.headerPost {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.caixaImgPost {
+  padding: 15px 15px 13px 17px;
+}
+
+.caixaImgPost img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.nomePost {
+  width: 517px;
+}
+
+.nomePost p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.ellipsisPost {
+  display: flex;
+  align-items: center;
+  width: 33px;
+}
+
+.imgPost img{
+  width: 100%;
+  height: 612px;
+}
+
+.footerPost {
+  display: flex;
+  flex-direction: column;
+}
+
+.caixaIconPost {
+  display: flex;
+  width: 100%;
+  padding: 10px 4px 10px 15px;
+}
+
+.caixaIconPost ion-icon {
+  font-size: 22px;
+  padding-right: 13px;
+}
+
+.caixaIconPost ion-icon:last-child {
+  margin-left: auto;
+}
+
+.curtidas {
+  display: flex;
+  padding: 0 17px 14px;
+}
+
+.curtidas img {
+  width: 20px;
+  border-radius: 50%;
+  padding-right: 5px;
+}
+
+.curtidas p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.curtidas p span {
+  font-weight: 500;
 }
