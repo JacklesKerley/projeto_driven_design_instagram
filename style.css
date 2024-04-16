@@ -114,6 +114,7 @@ ion-icon {
   border: 1px solid #DBDBDB;
   border-radius: 3px;
   position: relative;
+  overflow: hidden;
 }
 
 .perfilStorie {
