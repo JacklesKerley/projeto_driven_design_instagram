@@ -10,8 +10,17 @@ body {
   color: #262626;
 }
 
+ion-icon {
+  cursor: pointer;
+}
+
 .link {
   text-decoration: none;
+  color: #262626;
+}
+
+.link:hover {
+  opacity: 0.7;
 }
 
 .header {
@@ -188,6 +197,7 @@ body {
 .nomePost p {
   font-size: 14px;
   font-weight: 500;
+  display: inline;
 }
 
 .ellipsisPost {
@@ -285,7 +295,7 @@ body {
   font-weight: 500;
 }
 
-.headerSugestoes p:first-child {
+.headerSugestoes .sug {
   color: #8E8E8E;
 }
 
