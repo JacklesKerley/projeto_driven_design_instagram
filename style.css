@@ -342,3 +342,19 @@ ion-icon {
   color: #c7c7c7;
   margin-top: 17px;
 }
+
+
+@media (max-width: 935px) {
+  .headerContainer {
+    width: 100%;
+    padding: 0 15px 0 20px;
+  }
+
+  .container {
+    justify-content: center;
+  }
+
+  .sidebar {
+    display: none;
+  }
+}
